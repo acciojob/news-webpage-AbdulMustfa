@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.header{
+	background-color:black;
+	text-align:center;
+}
+#text{
+	color:white;
+}
+.container{
+	display:flex;
+	justify-content:center;
+	justify-item:center;
+}
+.max{
+	-background-color:f5f5f5;
+}
