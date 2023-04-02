@@ -1,16 +1,58 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+	font-size:10px;
+}
 .header{
-	background-color:black;
+	background-color:#011e29;
 	text-align:center;
+	padding:5px;
 }
 #text{
 	color:white;
 }
 .container{
 	display:flex;
+	flex-wrap:wrap;
+	justify-items:center;
 	justify-content:center;
-	justify-item:center;
+	padding:5px;
 }
-.max{
-	-background-color:f5f5f5;
+.max {
+    padding: 15px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 20px;
+}
+#imgs{
+	padding-bottom:5px;
+}
+.head{
+	text-align:center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+ul>li {
+    padding-inline-start: 10px;
+ }
+ p {
+    padding: 0px 20px 0px 20px;
+}
+div#latest {
+    height: 9rem;
+    width: 25%;
+}
+div#main {
+    height: 13rem;
+    width: 35%;
+}
+div#pic {
+    height: 20rem;
+    width: 18%;
+}
+#imgs {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    width: 90%;
 }
